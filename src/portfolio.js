@@ -36,10 +36,10 @@ const socialMediaLinks = {
   github: "https://github.com/sahil270403",
   linkedin: "https://www.linkedin.com/in/sahil-jakhar-07802a246/",
   gmail: "sahiljakhar645@gmail.com",
-  gitlab: "https://gitlab.com/sahil270403",
-  facebook: "https://www.facebook.com",
+  //gitlab: "https://gitlab.com/sahil270403",
+  facebook: "https://www.facebook.com/profile.php?id=100077289024295",
   medium: "https://medium.com/@21324",
-  stackoverflow: "https://stackoverflow.com/",
+  stackoverflow: "https://stackoverflow.com/users/22823970/sahil-iiitu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -115,11 +115,11 @@ const educationInfo = {
       logo: require("./assets/images/iiitLogo.png"),
       subHeader: "Bachelors of Technology in Computer Science",
       duration: "December 2021 - June 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     // {
     //   schoolName: "Stanford University",
@@ -275,12 +275,12 @@ const achievementSection = {
       title: "Udemy Android Developer",
       subtitle: "Completed Certifcation from Udemy for Application Development",
       image: require("./assets/images/udemyLogo.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Udemy Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: ""
         }
       ]
     }
@@ -323,7 +323,7 @@ const talkSection = {
   talks: [
     {
       title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      subtitle: "Codelab at GDG DevFest Gurugram 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
@@ -355,11 +355,11 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "sahil_jakhar12", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
